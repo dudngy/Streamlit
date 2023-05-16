@@ -1,9 +1,8 @@
 import streamlit as st
+import matplotlib.pyplot as plt
+import numpy as np
 
-st.checkbox('yes')
-st.button('Click')
-st.radio('Pick yout gender',['Male','Female'])
-st.selectbox('Pick your gender',['Male','Female'])
-st.multiselect('choose a planet',['Jupiter','Mars','neptune'])
-st.select_slider('Pick a mark',['Bad','Good','Excellent'])
-st.slider('Pick a number',0,50)
+rand - np.random.normal(1,2,size=20)
+fig, ax - plt.sublots()
+ax.hist(rand, bins-15)
+st.pyplot(fig)
